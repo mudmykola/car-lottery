@@ -1,0 +1,433 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Car Lottery</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700;800;900&family=Rajdhani:wght@700&display=swap" rel="stylesheet">
+    <!-- Підключаємо Style CSS-->
+    <link rel="stylesheet" href="css/style.min.css">
+    <!-- Підключаємо Simply CSS-->
+    <link rel="stylesheet" href="css/simple-adaptive-slider.min.css">
+</head>
+
+<body>
+
+    <header class="header">
+        <div class="container">
+            <div class="header__top">
+                <div class="header__top-logo">
+                    <a href="#"><span>car</span>lottery</a>
+                </div>
+                <!-- hamburger menu -->
+                <nav role="navigation">
+                    <div id="menuToggle">
+
+                        <input type="checkbox" />
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                        <ul id="menu">
+                            <a href="#">
+                                <li>Latest Competitions</li>
+                            </a>
+                            <a href="#">
+                                <li>Entry Lists</li>
+                            </a>
+                            <a href="#">
+                                <li>Live Draws</li>
+                            </a>
+                            <a href="#">
+                                <li>Winners</li>
+                            </a>
+                            <a href="#">
+                                <li>Gift Cards</li>
+                            </a>
+
+                            <a href="#">
+                                <li>How it Works</li>
+                            </a>
+                        </ul>
+                    </div>
+                </nav>
+                <!-- end hamburger -->
+                <nav class="header__menu">
+                    <ul class="header__menu-list">
+                        <li class="header__menu-item"><a class="header__menu-link" href="#">Latest Competitions</a></li>
+                        <li class="header__menu-item"><a class="header__menu-link" href="#">Entry Lists</a></li>
+                        <li class="header__menu-item"><a class="header__menu-link" href="#">Live Draws</a></li>
+                        <li class="header__menu-item"><a class="header__menu-link" href="#">Winners </a></li>
+                        <li class="header__menu-item"><a class="header__menu-link" href="#">Gift Cards </a></li>
+                        <li class="header__menu-item"><a class="header__menu-link" href="#">How it Works</a></li>
+                    </ul>
+                </nav>
+                <div class="header__auth">
+                    <button class="header__btn-login"><a href="#">Login</a></button>
+                    <button class="header__btn-regist "><a href="#" >Register  </a></button>
+                </div>
+            </div>
+            <!-- header content -->
+            <div class="header__cont-box">
+
+
+                <div class="header__cont">
+                    <div class="header__text">
+
+                        <h3 class="header__text-title">Could you be our
+                            <span>next winner?</span> </h3>
+                        <!-- header picture mobile -->
+                        <div class="header__picture-responsive">
+                            <div class="header__picture-imagr">
+                                <img src="images/header-bg.png" alt="">
+                                <span></span>
+                            </div>
+                        </div>
+                        <!-- end header picture mobile -->
+                        <a class="header__text-btn" href="#">Enter now</a>
+                    </div>
+                    <div class="header__picture">
+                        <div class="header__picture-imag">
+                            <img src="images/header-bg.png" alt="">
+                            <span></span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- end header content -->
+        </div>
+    </header>
+    <div class="wrapper">
+        <main class="main">
+            <!-- sale -->
+            <section class="sale">
+                <div class="container">
+                    <h3 class="sale__title">Latest Competitions</h3>
+                    <div class="sale__cart">
+                        <ul class="sale__cart-list">
+                            <!-- cart-1 -->
+                            <li class="sale__cart-item">
+                                <div class="sale__cart-imag">
+                                    <img src="images/sale-img-1.png" alt="">
+                                </div>
+                                <div class="sale__cart-box">
+                                    <div class="sale__cart-info">
+                                        <h3 class="sale__cart-title">2020 Audi S5 Coupe</h3>
+                                        <p class="sale__cart-order">$19.99 <span>$54.68</span></p>
+                                    </div>
+                                </div>
+                                <div class="sale__desc-box">
+                                    <p class="sale__cart-desc">
+                                        5878 tickets remaining
+                                    </p>
+                                    <div class="sale__cart-btn">
+                                        <a href="#">
+                                            <img src="images/arrows-btn.svg" alt="">
+                                        </a>
+                                    </div>
+                                </div>
+                            </li>
+                            <!-- end cart-1 -->
+                            <!-- cart-2 -->
+                            <li class="sale__cart-item">
+                                <div class="sale__cart-imag">
+                                    <img src="images/sale-img-2.png" alt="">
+                                </div>
+                                <div class="sale__cart-box">
+                                    <div class="sale__cart-info">
+                                        <h3 class="sale__cart-title">
+                                            2016 Ford Mustang GT</h3>
+                                        <p class="sale__cart-order">$7.99 <span>$9.68</span></p>
+                                    </div>
+                                </div>
+                                <div class="sale__desc-box">
+                                    <p class="sale__cart-desc">
+                                        3290 tickets remaining
+                                    </p>
+                                    <div class="sale__cart-btn">
+                                        <a href="#">
+                                            <img src="images/arrows-btn.svg" alt="">
+                                        </a>
+                                    </div>
+                                </div>
+                            </li>
+                            <!-- end cart-2 -->
+
+                            <!-- cart-3 -->
+                            <li class="sale__cart-item">
+                                <div class="sale__cart-imag">
+                                    <img src="images/sale-img-3.png" alt="">
+                                </div>
+                                <div class="sale__cart-box">
+                                    <div class="sale__cart-info">
+                                        <h3 class="sale__cart-title">2020 Bugatti Chiron</h3>
+                                        <p class="sale__cart-order">$0.99 <span>$1.39</span></p>
+                                    </div>
+                                </div>
+                                <div class="sale__desc-box">
+                                    <p class="sale__cart-desc">
+                                        4014 tickets remaining
+                                    </p>
+                                    <div class="sale__cart-btn">
+                                        <a href="#">
+                                            <img src="images/arrows-btn.svg" alt="">
+                                        </a>
+                                    </div>
+                                </div>
+                            </li>
+                            <!-- end cart-3 -->
+
+                            <!-- cart-4 -->
+                            <li class="sale__cart-item">
+                                <div class="sale__cart-imag">
+                                    <img src="images/sale-img-4.png" alt="">
+                                </div>
+                                <div class="sale__cart-box">
+                                    <div class="sale__cart-info">
+                                        <h3 class="sale__cart-title">2019 Porsche 911 Carrera</h3>
+                                        <p class="sale__cart-order">$1.99 <span>$1.99</span></p>
+                                    </div>
+                                </div>
+                                <div class="sale__desc-box">
+                                    <p class="sale__cart-desc">
+                                        484 tickets remaining
+                                    </p>
+                                    <div class="sale__cart-btn">
+                                        <a href="#">
+                                            <img src="images/arrows-btn.svg" alt="">
+                                        </a>
+                                    </div>
+                                </div>
+                            </li>
+                            <!-- end cart-4 -->
+                        </ul>
+                    </div>
+                </div>
+            </section>
+            <!-- end sale -->
+            <!-- work -->
+            <section class="work">
+                <div class="container">
+                    <h3 class="work__title">How it works</h3>
+                    <ul class="work__list">
+                        <li class="work__item">
+                            <img class="work__item-imag" src="images/work__icon-1.svg" alt="icon-1">
+                            <p class="work__item-desc">Choose a competition and how many entries you would like</p>
+                        </li>
+                        <span class="work__item-elem">
+                            <img src="images/work__elem.svg" alt="elem-1">
+                        </span>
+
+
+
+                        <li class="work__item">
+                            <img class="work__item-imag" src="images/work__icon-2.svg" alt="icon-1">
+                            <p class="work__item-desc">Answer the qualifying question <span> (be sure to answer correctly!) </span>and complete payment</p>
+                        </li>
+                        <span class="work__item-elem">
+                            <img src="images/work__elem.svg" alt="elem-2">
+                        </span>
+
+
+                        <li class="work__item">
+                            <img class="work__item-imag" src="images/work__icon-3.svg" alt="icon-1">
+                            <p class="work__item-desc">Tickets for all correct answers are entered into the draw, streamed LIVE on Facebook using Google’s random number generator</p>
+                        </li>
+                        <span class="work__item-elem">
+                            <img src="images/work__elem.svg" alt="elem-3">
+                        </span>
+
+
+                        <li class="work__item">
+                            <img class="work__item-imag" src="images/work__icon-4.svg" alt="icon-1">
+                            <p class="work__item-desc">If you win, we may try to contact you whilst live on Facebook, so be prepared!</p>
+                        </li>
+
+                    </ul>
+                </div>
+            </section>
+            <!-- end work -->
+
+
+            <!-- slider -->
+            <section class="slider  ">
+                <div class="slider__wrapper">
+                    <div class="slider__items ">
+
+                        <div class="slider__item ">
+                            <div class="slider__item-info">
+
+                                <p class="slider__item-desc">"Unbelievable this is a dream come true, no way would I ever think I would own a car like this. What great blokes. Thank you very much! 5 star from me!!!"</p>
+                                <p class="slider__item-name">Danny Churchman</p>
+                                <div class="slider__indicator"></div>
+                                <!-- <div class=" slider__dots slider__indicator ">
+                                    <span class="dot"></span>
+                                    <span class="dot"></span>
+                                    <span class="dot"></span>
+                                </div> -->
+
+                            </div>
+                            <div class="slider__item-imag">
+                                <img src="images/slider-image-1.png" alt="">
+                            </div>
+                        </div>
+
+                        <div class="slider__item">
+                            <div class="slider__item-info">
+                                <p class="slider__item-desc">"Unbelievable this is a dream come true, no way would I ever think I would own a car like this. What great blokes. Thank you very much! 5 star from me!!!"</p>
+                                <p class="slider__item-name">Danny Churchman</p>
+                                <!-- <div class="slider__dots ">
+                                    <span class="dot"></span>
+                                    <span class="dot"></span>
+                                    <span class="dot"></span>
+                                </div> -->
+
+                            </div>
+                            <div class="slider__item-imag">
+                                <img src="images/slider-image-1.png" alt="">
+                            </div>
+                        </div>
+
+                        <div class="slider__item">
+                            <div class="slider__item-info">
+                                <p class="slider__item-desc">"Unbelievable this is a dream come true, no way would I ever think I would own a car like this. What great blokes. Thank you very much! 5 star from me!!!"</p>
+                                <p class="slider__item-name">Danny Churchman</p>
+                                <!-- <div class="slider__dots ">
+                                    <span class="dot"></span>
+                                    <span class="dot"></span>
+                                    <span class="dot"></span>
+                                </div> -->
+                            </div>
+                            <div class="slider__item-imag">
+                                <img src="images/slider-image-1.png" alt="">
+                            </div>
+                        </div>
+
+
+
+
+                    </div>
+            </section>
+
+            <!-- end slider -->
+            <!-- latest -->
+            <section class="lates">
+                <div class="container">
+                    <h3 class="lates__title">Latest Winners</h3>
+                    <div class="lates__cart">
+                        <ul class="lates__cart-list">
+                            <!-- cart-1 -->
+                            <li class="lates__cart-item">
+                                <div class="lates__cart-imag">
+                                    <img src="images/lates-img-1.png" alt="">
+                                </div>
+                                <div class="lates__cart-box">
+                                    <div class="lates__cart-info">
+                                        <h3 class="lates__cart-title">2020 Audi S5 Coupe</h3>
+                                    </div>
+                                </div>
+                                <div class="lates__desc-box">
+                                    <p class="lates__cart-desc">
+                                        5878 tickets remaining
+                                    </p>
+                                </div>
+                            </li>
+                            <!-- end cart-1 -->
+                            <!-- cart-2 -->
+                            <li class="lates__cart-item">
+                                <div class="lates__cart-imag">
+                                    <img src="images/lates-img-2.png" alt="">
+                                </div>
+                                <div class="lates__cart-box">
+                                    <div class="lates__cart-info">
+                                        <h3 class="lates__cart-title">2020 Audi S5 Coupe</h3>
+                                    </div>
+                                </div>
+                                <div class="lates__desc-box">
+                                    <p class="lates__cart-desc">
+                                        5878 tickets remaining
+                                    </p>
+                                </div>
+                            </li>
+                            <!-- end cart-2 -->
+
+                            <!-- cart-3 -->
+                            <li class="lates__cart-item">
+                                <div class="lates__cart-imag">
+                                    <img src="images/lates-img-3.png" alt="">
+                                </div>
+                                <div class="lates__cart-box">
+                                    <div class="lates__cart-info">
+                                        <h3 class="lates__cart-title">2020 Audi S5 Coupe</h3>
+                                    </div>
+                                </div>
+                                <div class="lates__desc-box">
+                                    <p class="lates__cart-desc">
+                                        5878 tickets remaining
+                                    </p>
+                                </div>
+                            </li>
+                            <!-- end cart-3 -->
+
+                            <!-- cart-4 -->
+                            <li class="lates__cart-item">
+                                <div class="lates__cart-imag">
+                                    <img src="images/lates-img-4.png" alt="">
+                                </div>
+                                <div class="lates__cart-box">
+                                    <div class="lates__cart-info">
+                                        <h3 class="lates__cart-title">2020 Audi S5 Coupe</h3>
+                                    </div>
+                                </div>
+                                <div class="lates__desc-box">
+                                    <p class="lates__cart-desc">
+                                        5878 tickets remaining
+                                    </p>
+                                </div>
+                            </li>
+                            <!-- end cart-4 -->
+                        </ul>
+                    </div>
+                </div>
+            </section>
+            <!-- end latest -->
+            </div>
+        </main>
+        <footer class="footer ">
+            <div class="container">
+                <div class="footer__box">
+                    <ul class="footer__box-logo">
+                        <li class="footer__logo"><a href="#">carlottery</a></li>
+                    </ul>
+                    <ul class="footer__menu">
+                        <li class="footer__menu-item"><a href="#">Latest Competitions</a></li>
+                        <li class="footer__menu-item"><a href="#">Entry Lists</a></li>
+                        <li class="footer__menu-item"><a href="#">Live Draws</a></li>
+                        <li class="footer__menu-item"><a href="#">Winners</a></li>
+                        <li class="footer__menu-item"><a href="#">Gift Cards</a></li>
+                        <li class="footer__menu-item"><a href="#">How it Works</a></li>
+                    </ul>
+                </div>
+            </div>
+
+        </footer>
+    </div>
+
+    <!-- Підключаємо Simply -->
+    <script src="js/simple-adaptive-slider.js"></script>
+    <!-- Підключаємо JS -->
+    <script src="js/main.js "></script>
+
+
+
+
+
+
+
+
+</body>
+
+
+</html>
